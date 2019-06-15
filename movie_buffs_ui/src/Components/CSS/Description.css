@@ -1,0 +1,186 @@
+.main-description-container {
+    width: 60.625rem;
+    height: fit-content;
+    margin: auto;
+    color: white;
+    background: #333333;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.row-first {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+
+.icon-size {
+    font-size: 160%;
+}
+
+.column-1 {
+    float: left;
+    margin-left: 20px;
+    height: 28rem;
+}
+
+
+.iframe-container {
+  display: grid;
+  grid-template-columns: 8% 84% 8%;
+  grid-template-rows: 85% 15%;
+}
+
+
+
+.desc-img {
+    height: 288px;
+    width: 195px;
+    border: 5px solid whitesmoke;
+}
+
+.column-2 {
+    margin-left: 6%;
+    margin-top: 10px;
+}
+
+
+
+.search-bar {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    padding: 5%;
+}
+
+.description-img {
+    border-radius: 8px;
+    border: 6px #868686 solid;
+    height: 23.75rem;
+    width: 17.5rem;
+    margin: auto;
+}
+
+.movie-name {
+    font-family: Arimo, Arial, Helvetica, lucida grande, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: -0.03em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.year {
+    font-family: Arimo, Arial, Helvetica, lucida grande, sans-serif;
+    font-size: 1.65rem;
+    font-weight: bolder;
+    letter-spacing: -0.03em;
+}
+
+.movie-type {
+    font-family: Arimo, Arial, Helvetica, lucida grande, sans-serif;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    letter-spacing: -0.03em;
+}
+
+.imdb-icon-font {
+    font-size: 180%;
+}
+
+.imdb-star {
+    font-size: 150%;
+    font-weight: 500;
+}
+ .star-imdb
+{
+   color:yellow !important;
+} 
+
+.rating-text {
+  display: inline;
+  font-weight: bolder;
+  font-size: 150%;
+  font-family: Arimo, Arial, Helvetica, lucida grande, sans-serif;
+  letter-spacing: -0.03em;
+  padding:2%;
+}
+
+.height-bw-name-year {
+    display: block;
+    height: 15px;
+}
+
+.height-bw-year-rating {
+    display: block;
+    height: 10px;
+}
+
+.height-bw-rating-plot {
+    display: block;
+    height: 20px;
+}
+
+.plot {
+    font-family: Arimo, Arial, Helvetica, lucida grande, sans-serif;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    letter-spacing: -0.03em;
+}
+
+.movie-description-para {
+    font-family: Arimo, Arial, Helvetica, lucida grande, sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+}
+
+.user-reviews {
+    padding: 5vh;
+    height: fit-content;
+    min-height: 40vh;
+    width: inherit;
+}
+
+.review-main-text {
+    font-family: "Shrikhand", "cursive";
+    margin: 1vh;
+}
+
+.input-group-addon-for-review {
+    display: inline;
+    padding: 0.375rem 0.75rem;
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 125%;
+    font-weight: 600;
+    color: #000;
+}
+
+.add-review {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.user-review-input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-div{
+    height: 35px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+}

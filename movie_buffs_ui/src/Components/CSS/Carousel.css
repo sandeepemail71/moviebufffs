@@ -1,0 +1,47 @@
+
+.carasole-width{
+    width:100%;
+    height:58vh;
+    margin: auto;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.custom-carousel-indicators{
+    bottom: 0px !important;
+    margin-bottom: .5rem;
+}
+
+.custom-carousel-item{
+    height:70vhpx!important;
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 3%;
+}
+
+
+@media screen and(max-width: 1050){
+    .carasole-width{
+        width:70%;
+        height:43vh;
+        margin: auto;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    
+    .custom-carousel-indicators{
+        bottom: 0px !important;
+        margin-bottom: .2rem;
+    }
+    
+    .custom-carousel-item{
+        height:50vh!important;
+        width: 70%;
+        margin: auto;
+    }
+}
+
+

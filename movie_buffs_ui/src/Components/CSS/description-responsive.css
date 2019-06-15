@@ -1,0 +1,119 @@
+@media screen and (max-width: 932px) {
+  .main-description-container {
+    width: 100vw;
+    height: max-content;
+    box-sizing: border-box;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: auto;
+    box-shadow: unset;
+  }
+
+  .row-first {
+    margin-left: unset;
+    margin-right: unset;
+    padding-top: 3px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+    width: 86vw;
+    margin: auto;
+  }
+
+  .column-1 {
+    float: unset;
+    margin: auto;
+    height: 24rem;
+    grid-row: 1/2;
+    grid-column: 1;
+  }
+
+  .column-2 {
+    margin-left: unset;
+    margin-top: 3px;
+    margin: auto;
+    padding: 2%;
+    grid-row: 2/3;
+    grid-column: 1;
+    width: 86vw;
+  }
+
+  .movie-name {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: -0.03em;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .year {
+    font-size: 1rem;
+  }
+
+  .movie-type {
+    font-size: .9rem;
+  }
+
+  .imdb-icon-font {
+    font-size: 180%;
+  }
+
+  .imdb-star {
+    font-size: 150%;
+    font-weight: 500;
+  }
+
+  .rating-text {
+    display: inline;
+    font-size: 150%;
+  }
+
+  .plot{
+    font-size: 1.2rem;
+  }
+
+  .movie-description-para{
+      font-size: 15px;
+      word-break: break-all;
+  }
+
+  .iframe-container{
+    margin-top: 3vh;
+    display: block;
+    width: 86vw;
+    height: fit-content;
+    margin: auto;
+  }
+
+  .iframe{
+    width: 86vw;
+    height: 35vh;
+    margin-bottom: 5vh;
+  }
+
+  .user-review-input{
+    /* width: 90%;
+    max-width: 90vw; */
+  }
+  
+/* 
+  .movie-grid {
+    margin-left: 0%;
+    margin-right: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 2px;
+    grid-column-gap: 2%;
+  } */
+  
+  
+}
+
+
+@media screen and (max-width:770px){
+  .user-review-input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

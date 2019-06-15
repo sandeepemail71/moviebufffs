@@ -1,0 +1,23 @@
+@media screen and (max-width: 770px) {
+  .movie-shelf {
+    /* padding: 0 10px 20px; */
+  }
+
+  .movie-shelf {
+    height: 60vh;
+  }
+
+  .movie-shelf-title {
+    border-bottom: 1px solid #dedede;
+  }
+
+  .movie-shelf-movies {
+    text-align: center;
+  }
+}
+
+@media (max-width: 786px) {
+  .movie-shelf {
+    padding: 0 20px 40px;
+  }
+}

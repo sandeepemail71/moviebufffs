@@ -1,0 +1,57 @@
+@media screen and (max-width: 770px) {
+    .Search-container {
+        /* width: 100vw; */
+        box-sizing: border-box;
+    }
+    .App-header {
+        height: 56px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .App-logo {
+        height: 2.75rem;
+        margin-left: 0%;
+    }
+    .Header-text {
+        margin-left: 0.2rem;
+        padding-top: 0.4rem;
+        font-size: 1.75rem !important;
+    }
+    .header-containts-container {
+        display: block;
+        float: right;
+        padding-top: 0px;
+    }
+    .nav-link {
+        font-size: 1.5rem;
+        margin-top: 0rem;
+    }
+    .search-icon {
+        font-size: 1.8rem;
+        font-weight: bolder;
+        margin-top: 0.5vh;
+        margin-right: 0vw;
+    }
+    .movie-text {
+        display: none;
+    }
+
+    .browes-movies-desktop{
+        display: none;
+    }
+
+    .browes-movies-mobile{
+        display: inline;
+        font-weight: bolder;
+    }
+
+    .hello-text-desktop{
+        display: none;
+    }
+
+    .user-profile-mobile{
+        display: inline;
+        font-weight: bolder;
+    }
+    
+}

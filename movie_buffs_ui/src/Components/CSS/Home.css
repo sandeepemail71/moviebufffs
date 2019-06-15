@@ -1,0 +1,57 @@
+
+.login-main-container{
+    background-image: url("../ICONS/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    width: 950px;
+    height: fit-content;
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.dark-bg {
+    background: #303030;
+    color: white;
+    height: max-content;
+    width: 100%;
+    padding: 0px;
+}
+
+.hide {
+    display: block;
+}
+
+.light-bg {
+    background-color: #303030;
+    opacity: .8;
+    color: white;
+    height: max-content;
+}
+
+.recomended-text {
+    color: white;
+    float: left;
+    margin: 0px;
+    margin-bottom: 1vh;
+    padding: 0px;
+    margin-left: 10px;
+    padding-top: 4px;
+    font-size: 1.75rem !important;
+    font-weight: 555;
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 0 1px 2px rgba(248, 248, 248, 0.58), 0 2px 2px rgba(248, 248, 248, 0.23);
+}
+
+.size {
+    height: 59vh;
+    margin-top: 0px;
+}
+
+.text-container {
+    height: 6vh;
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+}

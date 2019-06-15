@@ -1,0 +1,12 @@
+.movie-shelf {
+  height: 60vh;
+}
+
+.movie-shelf-title {
+  border-bottom: 1px solid #dedede;
+}
+
+.movie-shelf-movies {
+  text-align: center;
+}
+

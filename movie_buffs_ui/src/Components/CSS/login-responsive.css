@@ -1,0 +1,73 @@
+@media screen and (max-width: 1050px) {
+  .login-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  a {
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 0.1rem;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .main-login-container {
+    /* background-image: linear-gradient(to right, #000 0%, transparent 58%),
+      url("https://i0.wp.com/www.rankerpros.com/wp-content/uploads/2018/02/Movie-Collage.jpeg");
+    height: 100%;
+    width: 100%; */
+  }
+
+  .main-helper-container {
+  }
+
+  button {
+  }
+
+  .login-container {
+    width: 100%;
+  }
+
+  .email {
+    
+  }
+
+  .password {
+  }
+
+  .height-width {
+    height: 100%;
+  }
+
+  .online-login {
+    height: 26vh;
+    margin-top: 9vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 40% 40%;
+  }
+
+  .google-login {
+    grid-row: 2;
+    grid-column: unset;
+  }
+
+  .fb-login {
+    grid-row: 3;
+    grid-column: unset;
+  }
+
+  .social-login-text {
+  }
+
+  .register-text {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+
+  .input-group-addon {
+  }
+
+  .line-sapration {
+  }
+}
